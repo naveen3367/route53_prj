@@ -1,5 +1,5 @@
 module "route53_domains" {
-  source   = "../s_route53_domain"
+  source   = "../s_route53_hosted_zone"
   for_each = var.hosted_zone_details
 
   hosted_zone_name = each.value.hosted_zone_name
