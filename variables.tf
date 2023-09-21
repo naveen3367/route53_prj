@@ -1,4 +1,4 @@
-variable "domain_details" {}
+variable "hosted_zone_details" {}
 
 variable "record_set_details" {}
 
