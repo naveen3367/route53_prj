@@ -2,7 +2,7 @@ module "route53_domains" {
   source   = "../s_route53_domain"
   for_each = var.hosted_zone_details
 
-  domain_name = each.value.hosted_zone_name
+  hosted_zone_name = each.value.hosted_zone_name
   tags = each.value.tags
 }
 
