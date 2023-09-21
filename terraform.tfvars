@@ -1,6 +1,6 @@
-domain_details = {
-  domain1 = { 
-    domain_name = "nave.com" 
+hosted_zone_details = {
+  zone1 = { 
+    hosted_zone_name = "nave.com" 
     tags = {}
   }
 }
